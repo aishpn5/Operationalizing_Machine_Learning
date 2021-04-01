@@ -15,7 +15,7 @@ Architectural diagram![image](https://user-images.githubusercontent.com/48025239
 Create and publish a pipeline : In this step, we automate this workflow by creating a pipeline with the Python SDK.
 
 First of all , we create a new automated ml run in MS Azure Studio by selecting and uploading the bank marketing dataset and run the experiment using Classification.
-registered dataset![image](images/registered dataset.png)
+![registered dataset](images/registered dataset.png)
 Then we deployed the best model (the Voting Ensemble, in our case) using Azure Container Instance and enabled authentication. After the deploy is successful, we run the logs.py file to enable application insights. Then we consume the model using swagger by downloading the swagger.json file using the swagger uri of the deployed model and run the swagger.sh and serve.py files in different terminals. We interacted with the swagger instance running with the documentation for the HTTP API of the model by displaying the contents of the API for the model. Next we consumed model endpoints by modifying the scoring_uri and key to match the key for our service and the URI that was generated after deployment . Finally, we created and published a pipeline using the jupyter notebook provided in the starter files.
 
 ## Screen Recording
