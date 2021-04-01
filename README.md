@@ -1,12 +1,9 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
 # Operationalizing Machine Learning
 
 In this project, we worked with the Bank Marketing dataset. We used Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We also created, published, and consumed a pipeline. 
 
 ## Architectural Diagram
-Screenshot 2021-03-27 at 3.31.52 PM![image](https://user-images.githubusercontent.com/48025239/112717396-66188b80-8f12-11eb-993a-fd53c7852bc6.png)
+Architectural diagram![image](https://user-images.githubusercontent.com/48025239/112717396-66188b80-8f12-11eb-993a-fd53c7852bc6.png)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
