@@ -2,7 +2,6 @@
 
 In this project, we worked with the Bank Marketing dataset. We used Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We also created, published, and consumed a pipeline. 
 
-## Architectural Diagram
 Architectural diagram![image](https://user-images.githubusercontent.com/48025239/112717396-66188b80-8f12-11eb-993a-fd53c7852bc6.png)
 
 ## Key Steps
