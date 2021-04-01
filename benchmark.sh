@@ -4,13 +4,13 @@
 # Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 # Licensed to The Apache Software Foundation, http://www.apache.org/
 #
-# Benchmarking http://1680b921-1612-4c75-b774-05730b329fca.southcentralus.azurecontainer.io/score (be patient)...INFO: POST header ==
+# Benchmarking http://3fa0670a-59c3-4c95-b1ef-7bbbc0fdae08.southcentralus.azurecontainer.io/score (be patient)...INFO: POST header ==
 # ---
 # POST /score HTTP/1.0
 # Content-length: 812
 # Content-type: application/json
-# Authorization: Bearer ZUyq37eGVyqLPxgD76cOCvIXCMPksfYK
-# Host: http://1680b921-1612-4c75-b774-05730b329fca.southcentralus.azurecontainer.io/score
+# Authorization: Bearer bdC1wzL9cYUNHI1m3WGkY1sXpncXyLUc
+# Host: http://3fa0670a-59c3-4c95-b1ef-7bbbc0fdae08.southcentralus.azurecontainer.io/score
 # User-Agent: ApacheBench/2.3
 # Accept: */*
 #
@@ -70,4 +70,4 @@
 # Total:        114  160  28.0    172     199#
 
 
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer ZUyq37eGVyqLPxgD76cOCvIXCMPksfYK' http://1680b921-1612-4c75-b774-05730b329fca.southcentralus.azurecontainer.io/score
+ ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer bdC1wzL9cYUNHI1m3WGkY1sXpncXyLUc' http://3fa0670a-59c3-4c95-b1ef-7bbbc0fdae08.southcentralus.azurecontainer.io/score
